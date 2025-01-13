@@ -32,9 +32,9 @@
                     <a class="nav-link" href="?page=publicprofiles">Public Profiles</a>
                 </li>
             </ul>
-            <form class="d-flex" role="search">
-                <button class="btn btn-outline-success" type="submit">Login/SignUp</button>
-            </form>
+            <div class="d-flex" role="search">
+                <button data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-outline-success" >Login/SignUp</button>
+            </div>
         </div>
     </div>
 </nav>
